@@ -21,4 +21,4 @@ class LocCommand(sublime_plugin.EventListener):
             if syntax.find('comment') < 0:
                 sloc += 1
 
-        view.set_status("loc", "Lines: " + str(loc) + " (SLOC: " + str(sloc) + ")")
+        view.set_status("loc", "Lines: %d (SLOC: %d)" % (loc, sloc))
