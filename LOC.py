@@ -1,10 +1,17 @@
 import re
+import functools
 import sublime
 import sublime_plugin
 
 
 class LocCommand(sublime_plugin.EventListener):
+    def on_load(self, view):
+        sublime.set_timeout(functools.partial(self.count, view), 100)
+
     def on_modified(self, view):
+        sublime.set_timeout(functools.partial(self.count, view), 100)
+
+    def count(self, view):
         chars = view.size()
         region = sublime.Region(0, chars)
         contents = view.substr(region)
