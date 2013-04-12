@@ -4,7 +4,7 @@ SublimeLOC counts the lines and [source lines](http://en.wikipedia.org/wiki/Sour
 
 ## Installing
 
-Eventually, this will be in [Sublime Package Control](http://wbond.net/sublime_packages/package_control), but for now, you can manually install it by copying `SublimeLoc/` into your Sublime Packages directory (i.e. `~/Library/Application Support/Sublime Text 2/Packages/`).
+Eventually, this will be in [Sublime Package Control](http://wbond.net/sublime_packages/package_control), but for now, you can manually install it by copying `SublimeLOC/` into your Sublime Packages directory (`~/Library/Application Support/Sublime Text 2/Packages/`).
 
 ## License
 
